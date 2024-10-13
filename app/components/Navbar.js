@@ -9,6 +9,7 @@ const Navbar = () => {
         <Image src={mypic} width={70} quality={100} alt="profilepic" placeholder="blur" className="rounded-full"/>
         <Link href="/">Dashboard</Link>
         <Link href="/projects">Projects</Link>
+        <Link href="/projects/create">Add project</Link>
       </nav>
     </div>
   );
