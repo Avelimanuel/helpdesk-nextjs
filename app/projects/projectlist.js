@@ -12,7 +12,7 @@ const fetchProjects = async () => {
     });
     return res.json();
   } catch (error) {
-    return res.status(500).json({ message: "Failed to fetch projects" });
+    return []
   }
 };
 
@@ -20,22 +20,27 @@ const Projectlist = async () => {
   const projects = await fetchProjects();
   return (
     <>
-      {projects.map((project) => (
+    {projects.length > 0 ? (
+      projects.map((project) => (
         <div key={project.id} className="card my-5">
           <h3 className="text-2xl">{project.title}</h3>
           <p>{project.description}</p>
           <p>
-            <span className="font-bold text-black">Technologies</span>:
+            <span className="font-bold text-black">Technologies</span>:{" "}
             {project.technologies}
           </p>
           <span>{project.date}</span>
-          <Link href={`/projects/${project.id}`}><button className="bg-green-300 font-bold text-blue-500">Learn More</button></Link>
+          <Link href={`/projects/${project.id}`}>
+            <button className="bg-green-300 font-bold text-blue-500">
+              Learn More
+            </button>
+          </Link>
         </div>
-      ))}
-      {projects.length === 0 && (
-        <p className="text-center text-red-500">No Projects Found</p>
-      )}
-    </>
+      ))
+    ) : (
+      <p className="text-center text-red-500">No Projects Found</p>
+    )}
+  </>
   );
 };
 

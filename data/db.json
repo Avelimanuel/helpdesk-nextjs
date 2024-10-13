@@ -119,6 +119,18 @@
       "title": "Hotel Booking System",
       "description": "This is a hotel booking system where clients can book rooms and specify the period that they want them booked",
       "technologies": "Nextjs,react,django,ruby,mongo,aws"
+    },
+    {
+      "id": "77b7",
+      "title": "Bus Ticket booking ",
+      "description": "A bus ticket booking system that shows booked and active seats and if the bus is fully booked it shows",
+      "technologies": "Nextjs,nodejs,react,mongo,shadcn"
+    },
+    {
+      "id": "89c1",
+      "title": "Rental Estate Property Management System",
+      "description": "Custom Real Estate Property Management Systems are specialized digital solutions tailored to the needs of real estate businesses. These systems streamline operations by centralizing property listings, client management, lease tracking, and financial reporting. The shift towards custom solutions signifies a growing demand for flexibility, scalability, and specific functionality that off-the-shelf software often fails to deliver.",
+      "technologies": "Next-js solidity,react,node,mongo db"
     }
   ]
 }
