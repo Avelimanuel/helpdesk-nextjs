@@ -1,0 +1,75 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "E-commerce Website",
+        "description": "An e-commerce platform for a clothing store, including features like product listing, shopping cart, and payment integration.",
+        "technologies": ["React", "Node.js", "MongoDB", "Stripe API"],
+        "image": "https://example.com/images/ecommerce.png",
+        "url": "https://myecommerceproject.com",
+        "github": "https://github.com/username/ecommerce-website",
+        "date": "2023-04-15"
+      },
+      {
+        "id": 2,
+        "title": "Portfolio Website",
+        "description": "A personal portfolio website showcasing projects, blogs, and contact information.",
+        "technologies": ["Next.js", "Tailwind CSS", "Vercel"],
+        "image": "https://example.com/images/portfolio.png",
+        "url": "https://myportfolio.com",
+        "github": "https://github.com/username/portfolio-website",
+        "date": "2023-01-10"
+      },
+      {
+        "id": 3,
+        "title": "Task Management App",
+        "description": "A productivity tool that allows users to manage tasks, set priorities, and track progress over time.",
+        "technologies": ["React", "Redux", "Firebase"],
+        "image": "https://example.com/images/taskapp.png",
+        "url": "https://mytaskapp.com",
+        "github": "https://github.com/username/task-management-app",
+        "date": "2022-11-05"
+      },
+      {
+        "id": 4,
+        "title": "Weather App",
+        "description": "A weather forecasting application using an external API to fetch real-time weather data for any location.",
+        "technologies": ["Vue.js", "OpenWeather API", "CSS"],
+        "image": "https://example.com/images/weatherapp.png",
+        "url": "https://myweatherapp.com",
+        "github": "https://github.com/username/weather-app",
+        "date": "2022-08-22"
+      },
+      {
+        "id": 5,
+        "title": "Chat Application",
+        "description": "A real-time chat application using WebSocket for live messaging between users.",
+        "technologies": ["Node.js", "Socket.io", "React"],
+        "image": "https://example.com/images/chatapp.png",
+        "url": "https://mychatapp.com",
+        "github": "https://github.com/username/chat-app",
+        "date": "2022-05-30"
+      },
+      {
+        "id": 6,
+        "title": "Quiz Game",
+        "description": "A quiz game application that generates random questions and tracks user scores.",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "image": "https://example.com/images/quizgame.png",
+        "url": "https://myquizgame.com",
+        "github": "https://github.com/username/quiz-game",
+        "data":"2024-07-09"
+      },
+      {
+        "id": 7,
+        "title": "Class Attendance Application",
+        "description": "A class attendance app that students register to attend classes.",
+        "technologies": ["JavaScript", "HTML", "CSS","Tailwind css","Firebase","Next.js"],
+        "image": "https://example.com/images/quizgame.png",
+        "url": "https://myquizgame.com",
+        "github": "https://github.com/username/quiz-game",
+        "data":"2024-07-09"
+      }
+    ]
+  }
+  
