@@ -5,7 +5,7 @@ const fetchProjects = async () => {
     // Imitate delay
     await new Promise(resolve=>setTimeout(resolve,3000))
   try {
-    const res = await fetch("http://localhost:4000/projects", {
+    const res = await fetch("/db.json", {
       next: {
         revalidate: 0,
       },

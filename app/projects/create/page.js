@@ -16,7 +16,7 @@ const AddProject = () => {
     setLoading(true);
     try {
       const project = { title, description, technologies };
-      const res = await  fetch(`http://localhost:4000/projects`, {
+      const res = await  fetch(`db.json`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(project),

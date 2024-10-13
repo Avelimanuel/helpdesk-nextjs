@@ -1,7 +1,7 @@
 const ProjectDetails = async ({ params }) => {
   const id = params.id;
   await new Promise(resolve=>setTimeout(resolve,3000))
-  const res = await fetch(`http://localhost:4000/projects/${id}`, {
+  const res = await fetch(`db.json/${id}`, {
     next: {
       revalidate: 0,
     },
