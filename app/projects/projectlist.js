@@ -2,7 +2,7 @@ import Link from "next/link";
 
 //function will fetch projects data from the json file that we created.
 const fetchProjects = async () => {
-    // Imitate delay
+    
     await new Promise(resolve=>setTimeout(resolve,3000))
   try {
     const res = await fetch("/db.json", {
